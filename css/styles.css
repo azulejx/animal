@@ -1,12 +1,12 @@
 .animalbod {
-  width: 30%;
+  width: 19%;
   float: left;
   padding: 5px
 }
 
 img {
     width: 100%;
-    height: 260px;
+    height: 164px;
     object-fit: cover;
 }
 
@@ -31,7 +31,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1000px) and (min-width: 700px) {
+@media screen and (max-width: 1000px) and (min-width: 480px) {
   .animalbod {
     width: 100%;
     padding: 5px;
