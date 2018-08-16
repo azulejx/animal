@@ -1,7 +1,9 @@
 .animalbod {
   width: 19%;
   float: left;
-  padding: 5px
+  padding: 5px;
+  margin-bottom: 5px;
+  height: 600px;
 }
 
 img {
