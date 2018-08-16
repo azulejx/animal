@@ -5,7 +5,9 @@
 }
 
 img {
-  width: 100%;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
 }
 
 .animalbod h4 {
@@ -17,4 +19,24 @@ img {
 
 .bio {
   font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .animalbod {
+    width: 100%;
+    padding: 5px;
+  }
+  body {
+    background-color: gray;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .animalbod {
+    width: 100%;
+    padding: 5px;
+  }
+  body {
+    background-color: pink;
+  }
 }
