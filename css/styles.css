@@ -1,8 +1,20 @@
-.animalpics {
+.animalbod {
   width: 30%;
   float: left;
+  padding: 5px
 }
 
 img {
   width: 100%;
+}
+
+.animalbod h4 {
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.bio {
+  font-weight: bold;
 }
